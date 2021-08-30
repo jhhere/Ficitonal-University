@@ -13,6 +13,9 @@ function university_files() {
 
 
   function university_features() {
+  	register_nav_menu('footerMenuLocationOne', "Footer Location One");
+  	register_nav_menu("footerMenuLocationTwo", "Footer Location Two");
+  	register_nav_menu('headerMenuLocation', "Header Menu Location");
   	add_theme_support("title-tag");
   }
   
